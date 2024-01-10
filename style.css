@@ -8,7 +8,8 @@ body {
   background-image: url("img/bg.jpg");
   background-size: cover;
   font-family: "Poppins", sans-serif;
-  max-width: 1000vh;
+  height: 100%;
+  max-height: 100%;
 }
 
 .imagem-logo img {
@@ -152,20 +153,18 @@ body {
 
 @media (max-width: 575.98px) {
   body {
-    background-image: url("img/fundomobile.jpg");
-    background-size: cover;
-    background-position: center;
+    background-image: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: -1900px;
     font-family: "Poppins", sans-serif;
     height: 1600px;
-    overflow-x: hidden;
   }
   .imagem-logo img {
     width: 150px;
     display: block;
     object-fit: contain;
     height: 100%;
-    margin-left: 150px;
-    margin: 0 auto;
+    margin: auto;
     margin-bottom: 50px;
   }
 
@@ -292,7 +291,7 @@ body {
     background-size: cover;
     background-position: center;
     font-family: "Poppins", sans-serif;
-    height: 1300px;
+    height: 100%;
     overflow-x: hidden;
   }
   .imagem-logo img {
@@ -308,7 +307,6 @@ body {
   .menu {
     display: flex;
     align-items: center;
-
     gap: 100px;
     margin-top: 40px;
   }
@@ -445,7 +443,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     font-family: "Poppins", sans-serif;
-    height: 1400px;
+    height: 1500px;
     overflow-x: hidden;
   }
   .imagem-logo img {
@@ -579,7 +577,7 @@ body {
     background-repeat: no-repeat;
     background-position: right;
     font-family: "Poppins", sans-serif;
-    height: 1400px;
+    height: 1500px;
     overflow-x: hidden;
   }
   .imagem-logo img {
