@@ -18,8 +18,8 @@ body {
 .menu {
   display: flex;
   justify-content: center;
-  gap: 1400px;
-  margin-top: 30px;
+  gap: 1000px;
+  margin-top: 10px;
 }
 
 .lista-menu {
@@ -42,7 +42,7 @@ body {
 .conteudo-principal {
   display: grid;
   margin-left: 30px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .conteudo-principal p {
@@ -53,16 +53,16 @@ body {
 }
 .conteudo-principal img {
   width: 780px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .lista-temporadas {
   display: flex;
-  margin-top: 30px;
+  margin-top: 20px;
   list-style: none;
   gap: 50px;
   margin-left: 40px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .lista-temporadas li a {
   text-decoration: none;
@@ -80,7 +80,7 @@ body {
   background: #0f79af;
 }
 .assistir-a {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 40px;
   display: flex;
   align-items: center;
@@ -112,7 +112,7 @@ body {
   display: flex;
   flex-flow: row;
   margin-left: 190px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .galeria-imagens img {
