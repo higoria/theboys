@@ -33,10 +33,25 @@ body {
   color: #fff;
   font-size: 1.3rem;
 }
+.lista-menu a::after {
+  content: "";
+  display: block;
+  border-bottom: #0f79af solid 3px;
+  height: 3px;
+  width: 0px;
+}
+.lista-menu a:hover::after {
+  width: 100%;
+  transition: 0.5s;
+}
 
 .lista-menu img {
   width: 20px;
   height: 20px;
+  cursor: pointer;
+}
+.lista-menu img:hover {
+  filter: invert(100%);
 }
 
 .conteudo-principal {
@@ -226,7 +241,7 @@ body {
   .galeria-imagens {
     display: flex;
     flex-flow: column;
-    margin-left: 200px;
+    margin-left: 210px;
     margin-top: 20px;
     gap: 10px;
   }
@@ -257,7 +272,7 @@ body {
   }
   .assistir-a {
     margin-top: 20px;
-    margin-left: 45px;
+    margin-left: 55px;
     display: flex;
     align-items: center;
     background: #0f79af;
